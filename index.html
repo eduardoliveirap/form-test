@@ -31,10 +31,10 @@
 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasRightLabel">Cadastrar</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <button id="cadastro-fechar" type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
-    <form onsubmit="adicionarAluno()">
+    <form id="cadastro" onsubmit="adicionarAluno()">
         <label for="" class="form-label">Nome</label>
         <input type="text" class="form-control" id="nome" placeholder="Nome do aluno" required/>
         <label for="" class="form-label mt-2">Email</label>
